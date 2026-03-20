@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn import model_selection, linear_model
 from sklearn.metrics import r2_score
 
-df = pd.read_csv("study_exam_1000.csv")
+df = pd.read_csv("../../data/study_exam_1000.csv")
 
 # pd.plotting.scatter_matrix(df, figsize=(10,10))
 # plt.show()
